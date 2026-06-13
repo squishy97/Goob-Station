@@ -68,3 +68,17 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Ransom
+
+- type: entity
+  parent: PiratesSpawn
+  id: Piratecaptainspawn
+  components:
+  - type: AntagSelection
+    definitions:
+    - spawnerPrototype: SpawnPointPirateCaptain
+      pickPlayer: false
+      min: 1
+      max: 1
+      mindRoles:
+      - MindRolePiratecap
+      startingGear: PirateCaptainGear

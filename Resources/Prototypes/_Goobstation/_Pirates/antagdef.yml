@@ -30,3 +30,16 @@
     roleType: TeamAntagonist
     subtype: role-subtype-pirate
   - type: PirateRole
+#pirate captain leads the crew added in post
+
+- type: entity
+  parent: MindRolePirate
+  id: MindRolePiratecap
+  name: Pirate Captain Role
+  components:
+  - type: MindRole
+    antagPrototype: Pirate
+    exclusiveAntag: true
+    roleType: TeamAntagonist
+    subtype: role-subtype-pirate-captain
+  - type: PirateRole

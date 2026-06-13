@@ -29,7 +29,7 @@
   equipment:
     head: ClothingHeadHatPirate
     pocket2: EnergyCutlass
-    outerClothing: ClothingOuterCoatPirate
+    outerClothing: ClothingOuterHardsuitPirateCap #Goob change
 
 - type: startingGear
   id: PirateFirstmateGear
